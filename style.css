@@ -136,7 +136,7 @@ nav a:hover,
 .card-projeto:hover,
 .hobby-card-item:hover,
 .games-banner-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) scale(1.03);
 }
 
 .page-section.ativo .hobby,
