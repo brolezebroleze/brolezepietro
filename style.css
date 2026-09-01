@@ -864,9 +864,6 @@ nav a:hover,
   flex: 1;
 }
 
-.singers-section:hover {
-  transform: scale(1.05);
-}
 
 .section-title {
   font-size: 0.88rem;
