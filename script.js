@@ -111,3 +111,16 @@ document.querySelectorAll('.progress-track').forEach(track => {
     isDragging = false;
   });
 });
+
+window.addEventListener("load", () => {
+  const preloader = document.getElementById("preloader");
+  if (preloader) {
+    const tempoExtra = 2000; 
+    setTimeout(() => {
+      preloader.classList.add("escondido");
+      setTimeout(() => {
+        preloader.remove();
+      }, 500);
+    }, tempoExtra);
+  }
+});
